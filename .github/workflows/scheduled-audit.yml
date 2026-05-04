@@ -1,0 +1,9 @@
+name: Weekly Security Audit
+on:
+  schedule:
+    - cron: "0 1 * * 1"
+  workflow_dispatch:
+
+jobs:
+  audit:
+    uses: Nikki99999999/claude-config-niki/.github/workflows/reusable-audit.yml@main
