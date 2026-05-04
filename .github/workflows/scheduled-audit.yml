@@ -6,4 +6,4 @@ on:
 
 jobs:
   audit:
-    uses: Nikki99999999/claude-config-niki/.github/workflows/reusable-audit.yml@main
+    uses: Nikki99999999/shared-workflows/.github/workflows/reusable-audit.yml@main
