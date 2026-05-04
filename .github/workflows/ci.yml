@@ -1,0 +1,10 @@
+name: CI
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  ci:
+    uses: Nikki99999999/claude-config-niki/.github/workflows/reusable-ci.yml@main
