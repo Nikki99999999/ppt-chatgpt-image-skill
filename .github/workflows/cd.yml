@@ -1,0 +1,9 @@
+name: CD
+on:
+  push:
+    tags: ["v*"]
+    branches: [main, master]
+
+jobs:
+  cd:
+    uses: Nikki99999999/claude-config-niki/.github/workflows/reusable-cd.yml@main
