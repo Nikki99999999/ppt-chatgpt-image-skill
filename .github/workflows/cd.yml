@@ -4,6 +4,11 @@ on:
     tags: ["v*"]
     branches: [main, master]
 
+permissions:
+  contents: write
+
 jobs:
   cd:
     uses: Nikki99999999/shared-workflows/.github/workflows/reusable-cd.yml@main
+    permissions:
+      contents: write
